@@ -1,0 +1,15 @@
+.signup-card{
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+    height:650px;
+    width: 500px;
+}
+.loginButtonSection{
+    width: 100%;
+    height: 8%;
+    justify-content: 'center';
+    align-items: 'center';
+}
+ 
