@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 const mapStyles = {
-  width: '100%',
-  height: '100%'
+  marginTop: '50px',
+  marginLeft: '20px',
+  borderRadius: '10px',
+  width: '60%',
+  height: '80%'
 };
 
 export class MapContainer extends Component {
@@ -15,8 +18,8 @@ export class MapContainer extends Component {
         style={mapStyles}
         initialCenter={
           {
-            lat: -1.2884,
-            lng: 36.8233
+            lat: 23.777176,
+            lng: 90.399452
           }
         }
       />

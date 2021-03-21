@@ -11,6 +11,8 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Destination from './components/Destination/Destination';
+import RideDetail from './components/RideDetail/RideDetail';
+
 
 
 export const UserContext = createContext();
@@ -30,6 +32,9 @@ const [loggedInUser, setLoggedInUser] = useState({});
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/ridedetail/:id">
+              <RideDetail></RideDetail>
             </Route>
             <PrivateRoute path="/destination/:name">
               <Destination></Destination>
